@@ -38,7 +38,6 @@ header h1 {
 	width: 60%;
 	margin: 20px auto;
 	}
-}
 footer {
 	padding: 60px;
 	text-align: center;
@@ -51,7 +50,8 @@ footer {
 }
 .col p{
 	color:#d2ff4c;
-		text-shadow: 2px 2px 3px #646473;
+	text-shadow: 2px 2px 3px #646473;
+}
 }
 /*tablet*/
 @media(min-width: 768px){
@@ -70,14 +70,15 @@ footer {
 }
 .col p{
 	color:#5c26ff;
-		text-shadow: 2px 2px 3px #ff0040;
+	text-shadow: 2px 2px 3px #ff0040;
+}
 }
 /*desk*/
 @media (min-width: 1024px){
 	#container{
-		width:75;
+		width:75%;
 		margin: 20px auto;
-	}
+		}
 	#flex{
 		display:flex;
 	}
@@ -85,14 +86,15 @@ footer {
 		margin:40px auto;
 	}
 	.col img{
-	display: block;
-	width: 100%;
-	margin: 20px auto;
+		display: block;
+		width: 100%;
+		margin: 20px auto;
 	}
 	.main_img{
-	display: none;
-}
-.col p{
-	color:#d90036;
+		display: none;
+	}
+	.col p{
+		color:#d90036;
 		text-shadow: 2px 2px 3px #d9006c;
+	}
 }
