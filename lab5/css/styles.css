@@ -1,0 +1,136 @@
+/*global*/
+body {background-color:#0D0D0D;}
+img{display:block;
+	max-width:100%;
+	margin:0 auto;
+	}
+/*mobil*/
+
+#container{
+	background-color:#757584;
+	margin:10px;
+	border:4px solid #93F205;
+}
+nav,saction,aside,.col,footer{
+	background-color:#93f905;
+	padding:10px;
+	margin:10px;
+	border-radius:10px;
+	border:4px solid #B8D941;
+}
+header{
+	background-image:url('../pic/gcourse1.jpg');
+	background-size:cover;
+	padding: 60px 0;
+}
+header h1{
+	color:#4ACAD9;
+	text-align:center;
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav li{
+	display:block;
+
+}
+nav li a {
+	display:block;
+	background-color:#0D0D0D;
+	color:#6801c5;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin:10px 0;
+	font-size:1.2em;
+	text-decoration:none;
+	border-radius:10px;
+}
+nav la a:hover{
+	background-color:#93F205;
+	text-shadow:1px 1px #0000;
+}
+.button {
+	display:block;
+	background-color:#5c26ff;
+	color:#d90036;
+	height:40px;
+	width:175px;
+	line-height:40px;
+	text-align:center;
+	margin:10px auto;
+	font-size:1.2em;
+	text-decoration:none;
+	border-radius:10px;
+}
+.button:hovor{
+	background-color:#d90036;
+	text-shadow:1px 1px 1px #0000;
+}
+h2,h3{
+	color:#2D76B2;
+	text-shadow:1px 1px #000;
+	font:1,5em;
+	text-align:center;
+}
+section img,aside img{
+	width:65%;
+}
+footer{
+	padding:20px 20px;
+	text-align:center;
+	color:#4ACAD9;
+}
+.active{
+	background-color:#006600;
+}
+/*tablet*/
+@media(min-width: 768px){
+	.button {
+	display:block;
+	background-color:#ffff26;
+	color:#d9006c;
+	height:40px;
+	width:175px;
+	line-height:40px;
+	text-align:center;
+	margin:10px auto;
+	font-size:1.2em;
+	text-decoration:none;
+	border-radius:10px;
+	}
+}
+/*desktop*/
+@media(min-width: 1024px){
+	#container{
+	background-color:#4d4cff;
+	margin:10px;
+	border:4px solid #93F205;
+	}
+	nav la a{
+	display:block;
+	background-color:#0000ff;
+	color:#d90036;
+	height:40px;
+	line-height:40px;
+	text-align:initial;
+	margin:10px 0;
+	font-size:1.2em;
+	text-decoration:none;
+	border-radius:10px;
+	}
+.button {
+	display:block;
+	background-color:#000000;
+	color:#0000d9;
+	height:40px;
+	width:175px;
+	line-height:40px;
+	text-align:center;
+	margin:10px auto;
+	font-size:1.2em;
+	text-decoration:none;
+	border-radius:10px;
+	}
+}
