@@ -183,6 +183,9 @@ img{display:block;
 	#upper_flex{
 		display:flex;
 	}
+	.active{
+		background-color:#050506;
+	}
 	}
 /*desktop*/
 @media(min-width: 1024px){
@@ -286,5 +289,8 @@ img{display:block;
 		.gallery{
 			display:none;
 		}
+		.active{
+		background-color:#050506;
+	}
 		}
 }
