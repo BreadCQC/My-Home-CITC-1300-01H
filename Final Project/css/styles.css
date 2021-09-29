@@ -322,7 +322,7 @@
 	#AUF{
 		flex-direction: row;
 	}
-	#1,#2{
+	#a1,#a2{
 		margin:20px auto;
 	}
 	#AUF p{
@@ -384,7 +384,7 @@
 	}
 	.button2:hover {
 		background-color:#585858;
-		border:2px solid #red;
+		border:2px solid ##d23d24;
 		color:#fa3838;
 		border:5px groove #000000;
 	}
