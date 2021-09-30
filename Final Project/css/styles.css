@@ -291,6 +291,12 @@
 }
 /*desktop*/
 @media(min-width: 1024px){
+	img{
+		display:block;
+		max-width:100%;
+		margin:0 auto;
+		height:revert;
+	}
 	section p{
 		font-size:1em;
 	}
