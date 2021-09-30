@@ -149,7 +149,7 @@
 	}
 		/*blueprint*/
 	.head3{
-		background-image:url('../images/adam-war-factory.png');
+		background-image:url('../images/inner-rings.png');
 	}
 	#MF{
 		display: flex;
@@ -175,7 +175,7 @@
 	}
 		/*showcase*/
 	.head4{
-		background-image:url('../images/adam-war-factory.png');
+		background-image:url('../images/inner-rings.png');
 	}
 	.SCT,.BPT{
 		display:none;
@@ -197,7 +197,7 @@
 	}
 		/*Infantry Showcase*/
 	.head5{
-		background-image:url('../images/adam-war-factory.png');
+		background-image:url('../images/inner-rings.png');
 	}
 	.ISCT{
 		display:none;
@@ -229,9 +229,6 @@
 	}
 	.button2 {
 		background-color:#585858;
-	}
-	.head2{
-		background-image:url('../images/adam-war-factory.png');
 	}
 /*tablet*/
 @media(min-width: 768px){
